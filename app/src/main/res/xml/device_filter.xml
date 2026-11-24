@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Any USB device with a GIP interface: the Xbox One / Series wired protocol
+         (vendor class 0xFF, subclass 0x47, protocol 0xD0). Android matches this against every
+         interface of the device, so this covers NACON, PDP, PowerA, Hori, 8BitDo "for Xbox"
+         and other licensed wired pads. The app ignores a pad the phone already supports by
+         itself (one that already shows up as an input device). -->
+    <usb-device class="255" subclass="71" protocol="208" />
+</resources>
